@@ -1,3 +1,47 @@
-﻿国際交流基金海外運営専門員
-
+﻿
+Common delimiters and special characters
+"'`|/,;:&<>^*?€
 ~`!@#$%^&*()_+-={}|[]\:";'<>?,./
+
+End-of-Line Characters
+^M \r \n \r\n
+
+Accented characters
+àáâãäąćçčèéêëęēġğíîïiǰłńñòóôõöṙśšşùúûüźżžßÀÁÂÃÄĄĆÇÈÉÊËĘĞÍÎÏİŁŃÑÒÓÔÕÖŚŞÙÚÛÜŹŻ
+
+Combined test
+"'`|/,;:&<>^*?€ àáâãäąćçčè M \r \n \r\n łńñòóôõöṙśšş
+
+
+Other language characters
+աբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆabgdezēëtžilxçkhjġč̣mynšočpǰṙsvtrcwpkòf (Armenian)
+აბგდევზჱთიკლმნჲოპჟრსტჳუფქღყშჩცძწჭხჴჯჰჵჶ (Georgian)
+αβγδεζηθικλμνξοπρςστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩάέήίόύώϊϋΐΰαωΆΈΉΊΌΎΏΪΫΑΩ (Greek)
+AĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻaąbcćdeęfghijklłmnńoóprsśtuwyzźż (Polish)
+абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ (Russian)
+AaBbCcÇçDdEeFfGgĞğHhIıİiJjKkLlMmNnOoÖöPpRrSsŞşTtUuÜüVvYyZz (Turkish)
+
+Asian characters
+いろはにほへどちりぬるをわがよたれぞつねならむうゐのおくやまけふこえてあさきゆめみじゑひもせず (Japanese Hiragana)
+色は匂へど散りぬるを我が世誰ぞ常ならむ有為の奥山今日越えて浅き夢見じ酔ひもせず (Japanese Kanji)
+简体中文网页 (Chinese simplified)
+搜尋繁體中文網頁 (Chinese traditional)
+
+Right to left characters
+ابةتثجحخدذرزسشصضطظعغفقكلمنهوىيآأؤإئ (Arabic)
+אבגדהוזחטיכךלמנסעפצקרשתםןףץ (Hebrew)
+
+Translation
+"I can eat glass" in 我可以吃玻璃 (Chinese)
+Μπορώ να φάω σπασμένα γυαλιά χωρίς να πάθω τίποτα (Greek)
+Ég get etið gler án þess að meiða mig. (Icelandic)
+Mogę jeść szkło, i mi nie szkodzi. (Polish)
+Pot să mănânc sticlă și ea nu mă rănește. (Romanian)
+Я могу есть стекло (Russian)
+Я можу їсти шкло, й воно мені не пошкодить. (Ukrainian)
+Կրնամ ապակի ուտել և ինծի անհանգիստ չըներ։ (Armenian)
+მინას ვჭამ და არა მტკივა. (Georgian)
+אני יכול לאכול זכוכית וזה לא מזיק לי (Hebrew)
+איך קען עסן גלאָז און עס טוט מיר נישט װײ. (Yiddish)
+أنا قادر على أكل الزجاج و هذا لا يؤلمن (Arabic)
+私はガラスを食べられます。それは私を傷つけません。(Japanese)
