@@ -10,6 +10,7 @@ namespace Atlassian.Jira.Test
 {
     public class JqlExpressionTranslatorTest
     {
+	// come comments
         private JqlExpressionVisitor _translator;
 
         private Jira CreateJiraInstance()
