@@ -29,12 +29,6 @@
 
   $(document).ready(function () {
 
-    $.support.transition = (function () {
-      var thisBody = document.body || document.documentElement
-        , thisStyle = thisBody.style
-        , support = thisStyle.transition !== undefined || thisStyle.WebkitTransition !== undefined || thisStyle.MozTransition !== undefined || thisStyle.MsTransition !== undefined || thisStyle.OTransition !== undefined
-      return support
-    })()
 
     // set CSS transition event type
     if ( $.support.transition ) {
@@ -68,11 +62,7 @@
 
   Modal.prototype = {
 
-      toggle: function () {
-        return this[!this.isShown ? 'show' : 'hide']()
-      }
-
-    , show: function () {
+      show: function () {
         var that = this
         this.isShown = true
         this.$element.trigger('show')
@@ -183,7 +173,32 @@
 
     } else if ( callback ) {
        callback()
-    }
+    }\
+    
+    hide: function (e) {
+        e && e.preventDefault()
+
+        if ( !this.isShown ) {
+          return this
+        }
+
+        var that = this
+        this.isShown = false
+
+        escape.call(this)
+
+        this.$element
+          .trigger('hide')
+          .removeClass('in')
+
+        $.support.transition && this.$element.hasClass('fade') ?
+          hideWithTransition.call(this) :
+          hideModal.call(this)
+
+        return this
+      }
+      
+      
   }
 
   function removeBackdrop() {
@@ -244,6 +259,8 @@
   , keyboard: false
   , show: false
   }
+  
+  /* Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus. */
 
 
  /* MODAL DATA- IMPLEMENTATION
